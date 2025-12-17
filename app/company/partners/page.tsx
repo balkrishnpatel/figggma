@@ -360,7 +360,7 @@ export default function PartnersPage() {
                 Join Our Partner Ecosystem
               </h2>
               <p className="text-gray-600 mb-6">
-                Vastorax's Partner Program offers a collaborative framework for businesses to grow together. By
+                MHLP's Partner Program offers a collaborative framework for businesses to grow together. By
                 joining our ecosystem, you'll gain access to our expertise, resources, and network to deliver
                 exceptional value to your clients.
               </p>

@@ -211,7 +211,7 @@ export function HomeTechnologiesSection({ technologies }: HomeTechnologiesSectio
                 </p>
 
                 {/* Modern CTA button */}
-                <Link href={`/technologies/${tech.slug}`}>
+                {/* <Link href={`/technologies/${tech.slug}`}> */}
                   <Button
                     className={cn(
                       "group/btn relative overflow-hidden transition-all duration-500",
@@ -232,7 +232,7 @@ export function HomeTechnologiesSection({ technologies }: HomeTechnologiesSectio
                       <span className="absolute inset-0 z-0 bg-white/10 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></span>
                     )}
                   </Button>
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           </div>

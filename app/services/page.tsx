@@ -616,7 +616,7 @@ export default function ServicesPage() {
               <Star className="w-4 h-4 inline-block mr-1.5" /> Why Choose Us
             </span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              The Vastorax Advantage
+              The MHLP Advantage
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We deliver exceptional value through our commitment to quality, innovation, and client success.
@@ -841,7 +841,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-white/80 max-w-2xl mx-auto mb-8 text-sm md:text-base"
           >
-            Partner with Vastorax to leverage cutting-edge technology solutions that drive growth, efficiency, and
+            Partner with MHLP to leverage cutting-edge technology solutions that drive growth, efficiency, and
             innovation.
           </motion.p>
 

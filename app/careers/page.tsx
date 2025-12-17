@@ -256,7 +256,7 @@ export default function CareersPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              At Vastorax, we believe in creating an environment where talented individuals can thrive, innovate,
+              At MHLP, we believe in creating an environment where talented individuals can thrive, innovate,
               and make a real impact.
             </motion.p>
           </div>
@@ -525,7 +525,7 @@ export default function CareersPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Life at Vastorax
+              Life at MHLP
             </motion.h2>
             <motion.p
               className="text-gray-600 max-w-2xl mx-auto"
@@ -533,7 +533,7 @@ export default function CareersPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Hear from our team members about their experiences working at Vastorax.
+              Hear from our team members about their experiences working at MHLP.
             </motion.p>
           </div>
 
@@ -541,27 +541,27 @@ export default function CareersPage() {
             {[
               {
                 quote:
-                  "Working at Vastorax has been an incredible journey. The collaborative culture and challenging projects have helped me grow both professionally and personally.",
+                  "Working at MHLP has been an incredible journey. The collaborative culture and challenging projects have helped me grow both professionally and personally.",
                 name: "David Chen",
-                position: "Senior Developer",
+                position: "Segggnior Developer",
                 image: "/placeholder.svg?height=100&width=100",
-                years: "3 years at Vastorax",
+                years: "3 years at MHLP",
               },
               {
                 quote:
-                  "What I love most about Vastorax is the emphasis on work-life balance and continuous learning. I've been able to explore new technologies and advance my career while maintaining a healthy lifestyle.",
+                  "What I love most about MHLP is the emphasis on work-life balance and continuous learning. I've been able to explore new technologies and advance my career while maintaining a healthy lifestyle.",
                 name: "Sarah Johnson",
                 position: "UX Designer",
                 image: "/placeholder.svg?height=100&width=100",
-                years: "2 years at Vastorax",
+                years: "2 years at MHLP",
               },
               {
                 quote:
-                  "The inclusive environment at Vastorax makes it a truly special place to work. Everyone's ideas are valued, and we're encouraged to innovate and think outside the box.",
+                  "The inclusive environment at MHLP makes it a truly special place to work. Everyone's ideas are valued, and we're encouraged to innovate and think outside the box.",
                 name: "Michael Rodriguez",
                 position: "Product Manager",
                 image: "/placeholder.svg?height=100&width=100",
-                years: "4 years at Vastorax",
+                years: "4 years at MHLP",
               },
             ].map((testimonial, index) => (
               <motion.div
@@ -614,7 +614,7 @@ export default function CareersPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Explore our open positions and take the next step in your career journey with Vastorax.
+            Explore our open positions and take the next step in your career journey with MHLP.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

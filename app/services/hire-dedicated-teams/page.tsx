@@ -685,7 +685,7 @@ export default function HireDedicatedTeamsPage() {
             {[
               {
                 quote:
-                  "The dedicated team from Vastorax integrated seamlessly with our in-house developers. Their expertise helped us accelerate our product development and meet our tight deadlines.",
+                  "The dedicated team from MHLP integrated seamlessly with our in-house developers. Their expertise helped us accelerate our product development and meet our tight deadlines.",
                 name: "Sarah Johnson",
                 position: "CTO, TechStart Inc.",
                 image: "/hire-dedicated-teams3.jpeg?height=100&width=100",
@@ -694,7 +694,7 @@ export default function HireDedicatedTeamsPage() {
               },
               {
                 quote:
-                  "We've been working with Vastorax's dedicated team for over two years now. They've become an essential part of our development process, bringing valuable skills and perspectives.",
+                  "We've been working with MHLP's dedicated team for over two years now. They've become an essential part of our development process, bringing valuable skills and perspectives.",
                 name: "Michael Chen",
                 position: "VP of Engineering, DataFlow Systems",
                 image: "/hire-dedicated-teams2.jpeg?height=100&width=100",

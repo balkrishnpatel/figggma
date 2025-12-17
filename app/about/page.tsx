@@ -71,7 +71,7 @@ export default function AboutPage() {
                 From Startup to Industry Leader
               </h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2010, Vastorax began as a small team of developers with a big vision: to make
+                Founded in 2010, MHLP began as a small team of developers with a big vision: to make
                 cutting-edge technology accessible to businesses of all sizes. What started as a boutique web
                 development agency has grown into a comprehensive digital solutions provider with a global presence.
               </p>
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
             <div className="order-1 lg:order-2 relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-100 relative z-10 bg-white transform hover:scale-[1.02] transition-transform duration-500">
-                <img src="/our_headquarters.jpg?height=600&width=800" alt="Vastorax team" className="w-full h-auto" />
+                <img src="/our_headquarters.jpg?height=600&width=800" alt="MHLP team" className="w-full h-auto" />
 
                 {/* Overlaid caption */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">

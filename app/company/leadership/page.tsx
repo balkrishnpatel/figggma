@@ -55,7 +55,7 @@ export default function LeadershipPage() {
                 name: "Alex Johnson",
                 position: "Chief Executive Officer",
                 image: "/leadership1.jpeg?height=400&width=400",
-                bio: "Alex has over 20 years of experience in the technology industry and has led Vastorax since its founding in 2010. Under his leadership, the company has grown from a small startup to a global digital solutions provider.",
+                bio: "Alex has over 20 years of experience in the technology industry and has led MHLP since its founding in 2010. Under his leadership, the company has grown from a small startup to a global digital solutions provider.",
                 linkedin: "#",
                 twitter: "#",
               },
@@ -63,7 +63,7 @@ export default function LeadershipPage() {
                 name: "Samantha Lee",
                 position: "Chief Technology Officer",
                 image: "/leadership2.jpeg?height=400&width=400",
-                bio: "Samantha brings 15+ years of technical expertise to Vastorax. She oversees our technology strategy and ensures we stay at the forefront of innovation in AI, cloud computing, and software development.",
+                bio: "Samantha brings 15+ years of technical expertise to MHLP. She oversees our technology strategy and ensures we stay at the forefront of innovation in AI, cloud computing, and software development.",
                 linkedin: "#",
                 twitter: "#",
               },
@@ -305,7 +305,7 @@ export default function LeadershipPage() {
         <div className="container px-4 mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Our Team</h2>
           <p className="text-white/80 max-w-2xl mx-auto mb-8">
-            Interested in working with our leadership team? Explore career opportunities at Vastorax.
+            Interested in working with our leadership team? Explore career opportunities at MHLP.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/company/careers">

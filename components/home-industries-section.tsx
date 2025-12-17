@@ -223,7 +223,7 @@ export function HomeIndustriesSection({ industries }: HomeIndustriesSectionProps
                   </p>
 
                   {/* Modern CTA button */}
-                  <Link href={`/industries/${industry.slug}`}>
+                  {/* <Link href={`/industries/${industry.slug}`}> */}
                     <Button
                       className={cn(
                         "group/btn relative overflow-hidden transition-all duration-500",
@@ -250,7 +250,7 @@ export function HomeIndustriesSection({ industries }: HomeIndustriesSectionProps
                         </>
                       )}
                     </Button>
-                  </Link>
+                  {/* </Link> */}
                 </div>
               </div>
             </div>

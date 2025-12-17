@@ -69,38 +69,115 @@ const industries = [
 ]
 
 // Resources data
+// const resources = [
+//   {
+//     title: "Blog",
+//     icon: "📝",
+//     description: "Insights, tutorials, and industry news.",
+//     slug: "blog",
+//   },
+//   {
+//     title: "Case Studies",
+//     icon: "📊",
+//     description: "Success stories and client testimonials.",
+//     slug: "resources/case-studies",
+//   },
+//   {
+//     title: "Whitepapers",
+//     icon: "📄",
+//     description: "In-depth research and analysis.",
+//     slug: "resources/whitepapers",
+//   },
+//   {
+//     title: "Webinars",
+//     icon: "🎥",
+//     description: "Educational online events and recordings.",
+//     slug: "resources/webinars",
+//   },
+// ]
 const resources = [
   {
-    title: "Blog",
-    icon: "📝",
-    description: "Insights, tutorials, and industry news.",
-    slug: "blog",
+    title: "Home Loan",
+    icon: "🏠",
+    description: "Your Dream Home Awaits - Explore Our Range Of Home Loan Products.",
+    slug: "home-loan"
   },
   {
-    title: "Case Studies",
-    icon: "📊",
-    description: "Success stories and client testimonials.",
-    slug: "resources/case-studies",
+    title: "Loan against Property",
+    icon: "🏘️",
+    description: "Unlock your property's value with tailored loan solutions.",
+    slug: "loan-against-property"
   },
   {
-    title: "Whitepapers",
-    icon: "📄",
-    description: "In-depth research and analysis.",
-    slug: "resources/whitepapers",
+    title: "Personal Loan",
+    icon: "💼",
+    description: "Achieve your dreams with our versatile personal loan options.",
+    slug: "personal-loan"
   },
   {
-    title: "Webinars",
-    icon: "🎥",
-    description: "Educational online events and recordings.",
-    slug: "resources/webinars",
+    title: "Business Loan",
+    icon: "💰",
+    description: "Boost your business growth with our flexible financing options.",
+    slug: "business-loan"
   },
+  {
+    title: "Education Loan",
+    icon: "🎓",
+    description: "Invest in your child's future with our specialized education loans.",
+    slug: "education-loan"
+  },
+  {
+    title: "Car Loan",
+    icon: "🚗",
+    description: "Drive your dream car with our quick and flexible car loans.",
+    slug: "car-loan"
+  },
+  {
+    title: "Gold Loan",
+    icon: "💍",
+    description: "Meet your financial needs with gold loans from trusted banks.",
+    slug: "gold-loan"
+  },
+  {
+    title: "Credit Cards",
+    icon: "💳",
+    description: "Upgrade your lifestyle with feature-packed, rewarding credit cards.",
+    slug: "credit-cards"
+  },
+  {
+    title: "Life Insurance",
+    icon: "☂️",
+    description: "Protect Your Loved One's Future With Our Reliable Life Insurance Plans.",
+    slug: "life-insurance",
+    pricing: "Starting from ₹ 450/month*"
+  },
+  {
+    title: "Health Insurance",
+    icon: "🏥",
+    description: "Ensuring Your Health Is In Good Hands - Explore Our Top-notch Insurance Solutions.",
+    slug: "health-insurance",
+    pricing: "Starting from ₹ 450/month*"
+  },
+  {
+    title: "General Insurance",
+    icon: "🛡️",
+    description: "Insurance Made Easy - Your Protection, Our Expertise.",
+    slug: "general-insurance",
+    pricing: "Starting from ₹ 450/month*"
+  },
+   {
+    title: "Bill Payments",
+    icon: "💳",
+    description: "Simplify All Your Bill Payments with Bharat Bill Pay System (BBPS)!",
+    slug: "bill-payments"
+  }
 ]
 
 // Testimonial data
 const testimonials = [
   {
     quote:
-      "Vastorax transformed our business with their innovative solutions. Their team was professional, responsive, and delivered beyond our expectations.",
+      "MHLP transformed our business with their innovative solutions. Their team was professional, responsive, and delivered beyond our expectations.",
     author: "Sarah Johnson",
     position: "CTO, TechCorp Inc.",
     image: "/placeholder.svg?height=80&width=80",
@@ -108,7 +185,7 @@ const testimonials = [
   },
   {
     quote:
-      "Working with Vastorax was a game-changer for our company. Their expertise in digital transformation helped us stay ahead of the competition.",
+      "Working with MHLP was a game-changer for our company. Their expertise in digital transformation helped us stay ahead of the competition.",
     author: "Michael Chen",
     position: "CEO, Innovate Solutions",
     image: "/placeholder.svg?height=80&width=80",
@@ -116,7 +193,7 @@ const testimonials = [
   },
   {
     quote:
-      "The team at Vastorax understood our unique challenges and delivered a custom solution that perfectly addressed our needs. Highly recommended!",
+      "The team at MHLP understood our unique challenges and delivered a custom solution that perfectly addressed our needs. Highly recommended!",
     author: "Emily Rodriguez",
     position: "Director of IT, Global Enterprises",
     image: "/placeholder.svg?height=80&width=80",
@@ -124,7 +201,7 @@ const testimonials = [
   },
   {
     quote:
-      "We've worked with several IT consultants before, but none have matched the level of expertise and dedication that Vastorax brings to the table.",
+      "We've worked with several IT consultants before, but none have matched the level of expertise and dedication that MHLP brings to the table.",
     author: "James Wilson",
     position: "COO, NextGen Retail",
     image: "/placeholder.svg?height=80&width=80",
@@ -154,7 +231,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Services Preview Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-b from-gray-50 to-white">
+      {/* <section className="py-12 md:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container px-4 mx-auto">
           <div className="text-center mb-10 md:mb-16">
             <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-3">
@@ -182,8 +259,35 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+<section className="py-12 md:py-20 bg-gradient-to-b from-gray-50 to-white">
+  <div className="container px-4 mx-auto">
+    <div className="text-center mb-10 md:mb-16">
+      <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-3">
+        Our Services
+      </span>
+      <h2 className="text-2xl md:text-4xl py-2 font-bold mb-3 md:mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+        Innovative Software Solutions
+      </h2>
+      <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
+        We deliver cutting-edge software development and technology solutions to help businesses scale, automate, and succeed in the digital world.
+      </p>
+    </div>
 
+    <div className="max-w-7xl mx-auto">
+      <HomeServicesSection services={services.slice(0, 13)} />
+    </div>
+
+    <div className="mt-10 md:mt-14 text-center">
+      {/* <Link href="/home"> */}
+        <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white group px-6 py-2 md:px-8 md:py-6 text-base md:text-lg shadow-lg">
+          Explore All Solutions{" "}
+          <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 group-hover:translate-x-1 transition-transform" />
+        </Button>
+      {/* </Link> */}
+    </div>
+  </div>
+</section>
       {/* Technologies Section */}
       <section className="py-12 md:py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 mx-auto">
@@ -205,12 +309,12 @@ export default function Home() {
           </div>
 
           <div className="mt-10 md:mt-14 text-center">
-            <Link href="/technologies">
+            {/* <Link href="/technologies"> */}
               <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white group">
                 View All Technologies{" "}
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </section>
@@ -239,12 +343,12 @@ export default function Home() {
           </div>
 
           <div className="mt-10 md:mt-14 text-center">
-            <Link href="/industries">
+            {/* <Link href="/industries"> */}
               <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white group">
                 View All Industries{" "}
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </section>
@@ -253,15 +357,14 @@ export default function Home() {
       <section className="py-12 md:py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 mx-auto">
           <div className="text-center mb-10 md:mb-16">
-            <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-3">
+            {/* <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-3">
               Resources
-            </span>
+            </span> */}
             <h2 className="text-2xl md:text-4xl py-2 font-bold mb-3 md:mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Knowledge & Insights
+             We Facilitate
             </h2>
             <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
-              Explore our resources to stay informed about the latest trends and insights in technology and digital
-              innovation.
+             Wide Range of Financial Products That suits your customer's needs!
             </p>
           </div>
 
@@ -272,22 +375,22 @@ export default function Home() {
           </div>
 
           <div className="mt-8 md:mt-12 text-center">
-            <Link href="/resources">
+            {/* <Link href="/resources"> */}
               <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white group">
                 View All Resources{" "}
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-br from-primary/5 to-accent/5">
+      {/* <section className="py-12 md:py-20 bg-gradient-to-br from-primary/5 to-accent/5">
         <div className="container px-4 mx-auto">
           <TestimonialCarousel testimonials={testimonials} />
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-12 md:py-20 bg-gradient-to-r from-primary to-accent text-white relative overflow-hidden">
@@ -299,16 +402,16 @@ export default function Home() {
         <div className="container px-4 mx-auto text-center relative z-10">
           <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Transform Your Business?</h2>
           <p className="text-sm md:text-base text-white/80 max-w-2xl mx-auto mb-6 md:mb-8">
-            Partner with Vastorax to leverage cutting-edge technology solutions that drive growth, efficiency, and
+            Partner with MHLP to leverage cutting-edge technology solutions that drive growth, efficiency, and
             innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact">
+            {/* <Link href="/contact"> */}
               <Button className="bg-white text-primary hover:bg-gray-100 group">
                 Schedule a Consultation
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </Link>
+            {/* </Link> */}
           </div>
 
           {/* Floating elements */}

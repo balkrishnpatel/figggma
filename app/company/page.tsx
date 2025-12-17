@@ -6,7 +6,7 @@ const companyPages = [
   {
     title: "About Us",
     slug: "about",
-    description: "Learn about our mission, vision, values, and the story behind Vastorax.",
+    description: "Learn about our mission, vision, values, and the story behind MHLP.",
     image: "/placeholder.svg?height=300&width=400",
     icon: "🏢",
   },
@@ -27,7 +27,7 @@ const companyPages = [
   {
     title: "Culture",
     slug: "culture",
-    description: "Discover our company culture, values, and what makes Vastorax a great place to work.",
+    description: "Discover our company culture, values, and what makes MHLP a great place to work.",
     image: "/placeholder.svg?height=300&width=400",
     icon: "🌟",
   },
@@ -71,7 +71,7 @@ export default function CompanyPage() {
               Our Company
             </h1>
             <p className="text-lg text-gray-300">
-              Learn more about Vastorax, our mission, our team, and our commitment to innovation and excellence.
+              Learn more about MHLP, our mission, our team, and our commitment to innovation and excellence.
             </p>
           </div>
         </div>

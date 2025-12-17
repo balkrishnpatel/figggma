@@ -23,12 +23,12 @@
 //         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 gap-y-10 md:gap-12">
 //           <div>
 //             {/* <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-//               Vastorax
+//               MHLP
 //             </h3> */}
 
 //             <img
 //               src="/Mhlp_Logo_final.svg"
-//                  alt="Vastorax"
+//                  alt="MHLP"
 //                  className="relative z-10 h-[110px] w-auto"
 //             />
           
@@ -127,7 +127,7 @@
 
 //         <div className="mt-12 md:mt-16 pt-6 md:pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
 //           <p className="text-gray-500 text-xs md:text-sm mb-4 md:mb-0">
-//             &copy; {currentYear} Vastorax. All rights reserved.
+//             &copy; {currentYear} MHLP. All rights reserved.
 //           </p>
 //           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
 //             {[
@@ -189,8 +189,7 @@ export function Footer() {
             />
           
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Transforming businesses with cutting-edge technology solutions that drive growth, efficiency, and
-              innovation.
+              Driving business success with innovative, technology-driven solutions that enhance growth and efficiency.
             </p>
             <div className="flex space-x-4">
               {[
@@ -220,8 +219,8 @@ export function Footer() {
                 { name: "Home", href: "/" },
                 { name: "About Us", href: "/about" },
                 { name: "Services", href: "/services" },
-                { name: "Blog", href: "/blog" },
-                { name: "Careers", href: "/careers" },
+                // { name: "Blog", href: "/blog" },
+                // { name: "Careers", href: "/careers" },
                 { name: "Contact", href: "/contact" },
               ].map((link) => (
                 <li key={link.name}>
@@ -245,21 +244,27 @@ export function Footer() {
               <li className="flex items-start group">
                 <MapPin className="h-5 w-5 text-[#22d3ee] mr-3 mt-0.5 group-hover:text-[#3b82f6] transition-colors duration-300 group-hover:scale-110 transition-transform" />
                 <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                  123 Tech Park, Innovation Street
-                  <br />
-                  Silicon Valley, CA 94043
+                  Corporate Office Address: 206, Arcade Silver
+                  56 Dukan, New Palasia, Indore – 452001
+                </span>
+              </li>
+              <li className="flex items-start group">
+                <MapPin className="h-5 w-5 text-[#22d3ee] mr-3 mt-0.5 group-hover:text-[#3b82f6] transition-colors duration-300 group-hover:scale-110 transition-transform" />
+                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
+                  Registerd Address :Plot No. 19, Omaxe Shubhangan Extension, Omaxe City 1, 
+                  Baliya Kheda, Panod,Indore, Madhya Pradesh, India, 453771
                 </span>
               </li>
               <li className="flex items-center group">
                 <Phone className="h-5 w-5 text-[#22d3ee] mr-3 group-hover:text-[#3b82f6] transition-colors duration-300 group-hover:scale-110 transition-transform" />
                 <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                  +1 (555) 123-4567
+                   7415599112
                 </span>
               </li>
               <li className="flex items-center group">
                 <Mail className="h-5 w-5 text-[#22d3ee] mr-3 group-hover:text-[#3b82f6] transition-colors duration-300 group-hover:scale-110 transition-transform" />
                 <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                  info@cyberinstant.com
+                  info@mhlpsoft.com
                 </span>
               </li>
             </ul>
@@ -270,8 +275,7 @@ export function Footer() {
               Newsletter
             </h3>
             <p className="text-gray-300 mb-4">
-              Subscribe to our newsletter to receive updates on the latest technologies and industry insights.
-            </p>
+              Join our newsletter and get expert insights on the latest technologies and industry developments. </p>
             <div className="space-y-3">
               <Input
                 type="email"

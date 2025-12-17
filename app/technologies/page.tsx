@@ -653,7 +653,7 @@ export default function TechnologiesPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-white/80 max-w-2xl mx-auto mb-8"
           >
-            Partner with Vastorax to implement innovative technology solutions that drive growth, efficiency, and
+            Partner with MHLP to implement innovative technology solutions that drive growth, efficiency, and
             competitive advantage.
           </motion.p>
 

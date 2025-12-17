@@ -389,7 +389,7 @@
 //             <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
 //               <div className="text-center p-8 bg-white/80 backdrop-blur-md rounded-xl shadow-lg border border-gray-100 max-w-md">
 //                 <MapPin className="h-10 w-10 text-primary mx-auto mb-4" />
-//                 <h3 className="text-xl font-bold mb-2">Vastorax Headquarters</h3>
+//                 <h3 className="text-xl font-bold mb-2">MHLP Headquarters</h3>
 //                 <p className="text-gray-600 mb-4">
 //                   123 Tech Park, Innovation Street
 //                   <br />
@@ -470,9 +470,9 @@
 //             <div className="space-y-6">
 //               {[
 //                 {
-//                   question: "What services does Vastorax offer?",
+//                   question: "What services does MHLP offer?",
 //                   answer:
-//                     "Vastorax offers a comprehensive range of digital services including web and mobile app development, custom software development, cloud solutions, AI and machine learning, UI/UX design, and more. Visit our Services page for a complete list.",
+//                     "MHLP offers a comprehensive range of digital services including web and mobile app development, custom software development, cloud solutions, AI and machine learning, UI/UX design, and more. Visit our Services page for a complete list.",
 //                 },
 //                 {
 //                   question: "How long does it take to complete a project?",
