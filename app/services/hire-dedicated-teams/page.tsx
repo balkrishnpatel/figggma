@@ -668,7 +668,7 @@ export default function HireDedicatedTeamsPage() {
         <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
 
-        <div className="container px-4 mx-auto relative z-10">
+        {/* <div className="container px-4 mx-auto relative z-10">
           <div className="text-center mb-16">
             <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-3">
               Success Stories
@@ -715,14 +715,14 @@ export default function HireDedicatedTeamsPage() {
                 key={index}
                 className="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary/20 transition-all duration-300 hover:shadow-xl relative overflow-hidden group"
               >
-                {/* Industry tag */}
+              
                 <div className="absolute top-4 right-4">
                   <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
                     {testimonial.industry}
                   </span>
                 </div>
 
-                {/* Rating */}
+               
                 <div className="flex mb-4">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star
@@ -732,7 +732,7 @@ export default function HireDedicatedTeamsPage() {
                   ))}
                 </div>
 
-                {/* Quote mark */}
+                
                 <div className="absolute top-6 right-6 text-8xl text-primary/5 font-serif group-hover:text-primary/10 transition-colors duration-300">
                   "
                 </div>
@@ -752,20 +752,20 @@ export default function HireDedicatedTeamsPage() {
                   </div>
                 </div>
 
-                {/* Corner accent */}
+                
                 <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-gradient-to-br from-primary/10 to-accent/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
             ))}
           </div>
 
-          {/* View more testimonials button */}
+         
           <div className="text-center mt-12">
             <Button variant="outline" className="border-primary/20 text-primary hover:bg-primary/5 group">
               View More Success Stories
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Enhanced CTA Section */}

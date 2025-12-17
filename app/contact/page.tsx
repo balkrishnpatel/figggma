@@ -722,7 +722,7 @@ export default function ContactPage() {
                           </label>
                           <Input
                             id="name"
-                            placeholder="John Doe"
+                            // placeholder="Ram Kumar"
                             required
                             className="h-12 border-2 border-gray-200 focus:border-[#3d5af1] rounded-xl transition-all"
                           />
@@ -734,8 +734,8 @@ export default function ContactPage() {
                           </label>
                           <Input
                             id="email"
-                            type="email"
-                            placeholder="john@example.com"
+                            // type="email"
+                            // placeholder="ram@example.com"
                             required
                             className="h-12 border-2 border-gray-200 focus:border-[#3d5af1] rounded-xl transition-all"
                           />
@@ -749,7 +749,7 @@ export default function ContactPage() {
                           </label>
                           <Input
                             id="phone"
-                            placeholder="+1 (555) 123-4567"
+                            // placeholder="+91 9876543210"
                             className="h-12 border-2 border-gray-200 focus:border-[#3d5af1] rounded-xl transition-all"
                           />
                         </div>
@@ -838,11 +838,17 @@ export default function ContactPage() {
                     title: "Visit Us",
                     content: (
                       <>
-                        123 Tech Park, Innovation Street
-                        <br />
-                        Silicon Valley, CA 94043
-                        <br />
-                        United States
+                       Corporate Office Address : 206, Arcade Silver 56 Dukan, New Palasia, Indore – 452001
+                      </>
+                    ),
+                    gradient: "from-[#3d5af1] to-[#5c7cfa]",
+                  },
+                  {
+                    icon: <MapPin className="h-6 w-6" />,
+                    title: "",
+                    content: (
+                      <>
+                       Registerd Address : Plot No. 19, Omaxe Shubhangan Extension, Omaxe City 1, Baliya Kheda, Panod,Indore, Madhya Pradesh, India, 453771
                       </>
                     ),
                     gradient: "from-[#3d5af1] to-[#5c7cfa]",
@@ -852,9 +858,9 @@ export default function ContactPage() {
                     title: "Call Us",
                     content: (
                       <>
-                        Main: <a href="tel:+15551234567" className="hover:text-[#3d5af1]">+1 (555) 123-4567</a>
+                        Main: <a href="tel:+15551234567" className="hover:text-[#3d5af1]">+91 7415599112</a>
                         <br />
-                        Support: <a href="tel:+15559876543" className="hover:text-[#3d5af1]">+1 (555) 987-6543</a>
+                        Support: <a href="tel:+15559876543" className="hover:text-[#3d5af1]">+91 8718831517</a>
                       </>
                     ),
                     gradient: "from-[#00d4ff] to-[#00b4d8]",
@@ -864,11 +870,11 @@ export default function ContactPage() {
                     title: "Email Us",
                     content: (
                       <>
-                        Info: <a href="mailto:info@cyberinstant.com" className="hover:text-[#3d5af1]">info@cyberinstant.com</a>
+                        Info: <a href="mailto:info@mhlp.com" className="hover:text-[#3d5af1]">info@cyberinstant.com</a>
                         <br />
-                        Support: <a href="mailto:support@cyberinstant.com" className="hover:text-[#3d5af1]">support@cyberinstant.com</a>
+                        Support: <a href="mailto:support@mhlp.com" className="hover:text-[#3d5af1]">support@cyberinstant.com</a>
                         <br />
-                        Sales: <a href="mailto:sales@cyberinstant.com" className="hover:text-[#3d5af1]">sales@cyberinstant.com</a>
+                        Sales: <a href="mailto:sales@mhlp.com" className="hover:text-[#3d5af1]">sales@cyberinstant.com</a>
                       </>
                     ),
                     gradient: "from-[#3d5af1] to-[#00d4ff]",
@@ -878,9 +884,9 @@ export default function ContactPage() {
                     title: "Business Hours",
                     content: (
                       <>
-                        Monday - Friday: 9:00 AM - 6:00 PM
+                        Monday - Saturday: 9:00 AM - 6:00 PM
                         <br />
-                        Saturday: 10:00 AM - 2:00 PM
+                        {/* Saturday: 9:00 AM - 2:00 PM */}
                         <br />
                         Sunday: Closed
                       </>
@@ -910,10 +916,10 @@ export default function ContactPage() {
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Connect With Us</h3>
                 <div className="flex gap-3">
                   {[
-                    { name: "Facebook", href: "https://www.facebook.com/CyberInstant", icon: <Facebook className="h-5 w-5" /> },
-                    { name: "Twitter", href: "https://x.com/cyber_instant", icon: <Twitter className="h-5 w-5" /> },
-                    { name: "LinkedIn", href: "https://www.linkedin.com/company/cyber-instant/posts/?feedView=all", icon: <Linkedin className="h-5 w-5" /> },
-                    { name: "Instagram", href: "https://www.instagram.com/cyber_instant/", icon: <Instagram className="h-5 w-5" /> },
+                    { name: "Facebook", href: "https://www.facebook.com", icon: <Facebook className="h-5 w-5" /> },
+                    { name: "Twitter", href: "https://x.com", icon: <Twitter className="h-5 w-5" /> },
+                    { name: "LinkedIn", href: "https://www.linkedin.com", icon: <Linkedin className="h-5 w-5" /> },
+                    { name: "Instagram", href: "https://www.instagram.com", icon: <Instagram className="h-5 w-5" /> },
                   ].map((social) => (
                     <a
                       key={social.name}

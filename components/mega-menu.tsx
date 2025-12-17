@@ -133,29 +133,7 @@ export function MegaMenu({ isScrolled, activeCategory,onCloseCross, onClose }: M
             </svg>
           ),
         },
-        // {
-        //   name: "Press & Media",
-        //   href: "/company/press",
-        //   description: "Latest news and media resources",
-        //   icon: (props) => (
-        //     <svg
-        //       xmlns="http://www.w3.org/2000/svg"
-        //       viewBox="0 0 24 24"
-        //       fill="none"
-        //       stroke="currentColor"
-        //       strokeWidth="2"
-        //       strokeLinecap="round"
-        //       strokeLinejoin="round"
-        //       {...props}
-        //     >
-        //       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-        //       <polyline points="14 2 14 8 20 8" />
-        //       <line x1="16" y1="13" x2="8" y2="13" />
-        //       <line x1="16" y1="17" x2="8" y2="17" />
-        //       <polyline points="10 9 9 9 8 9" />
-        //     </svg>
-        //   ),
-        // },
+        
         {
           name: "Contact Us",
           href: "/contact",
@@ -378,144 +356,373 @@ export function MegaMenu({ isScrolled, activeCategory,onCloseCross, onClose }: M
         link: "/technologies/artificial-intelligence",
       },
     },
+    // industries: {
+    //   title: "Industries",
+    //   subtitle: "Specialized solutions for various sectors",
+    //   items: [
+    //     {
+    //       name: "Healthcare",
+    //       href: "/industries/healthcare",
+    //       description: "Digital solutions for healthcare providers",
+    //       icon: (props) => (
+    //         <svg
+    //           xmlns="http://www.w3.org/2000/svg"
+    //           viewBox="0 0 24 24"
+    //           fill="none"
+    //           stroke="currentColor"
+    //           strokeWidth="2"
+    //           strokeLinecap="round"
+    //           strokeLinejoin="round"
+    //           {...props}
+    //         >
+    //           <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+    //         </svg>
+    //       ),
+    //       featured: true,
+    //     },
+    //     {
+    //       name: "Finance",
+    //       href: "/industries/finance",
+    //       description: "FinTech and banking solutions",
+    //       icon: (props) => (
+    //         <svg
+    //           xmlns="http://www.w3.org/2000/svg"
+    //           viewBox="0 0 24 24"
+    //           fill="none"
+    //           stroke="currentColor"
+    //           strokeWidth="2"
+    //           strokeLinecap="round"
+    //           strokeLinejoin="round"
+    //           {...props}
+    //         >
+    //           <line x1="12" y1="1" x2="12" y2="23" />
+    //           <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+    //         </svg>
+    //       ),
+    //       featured: true,
+    //     },
+    //     {
+    //       name: "Retail & E-commerce",
+    //       href: "/industries/retail-ecommerce",
+    //       description: "Digital transformation for retail businesses",
+    //       icon: (props) => (
+    //         <svg
+    //           xmlns="http://www.w3.org/2000/svg"
+    //           viewBox="0 0 24 24"
+    //           fill="none"
+    //           stroke="currentColor"
+    //           strokeWidth="2"
+    //           strokeLinecap="round"
+    //           strokeLinejoin="round"
+    //           {...props}
+    //         >
+    //           <circle cx="9" cy="21" r="1" />
+    //           <circle cx="20" cy="21" r="1" />
+    //           <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+    //         </svg>
+    //       ),
+    //       featured: true,
+    //     },
+    //     {
+    //       name: "Manufacturing",
+    //       href: "/industries/manufacturing",
+    //       description: "Industry 4.0 and smart manufacturing",
+    //       icon: (props) => (
+    //         <svg
+    //           xmlns="http://www.w3.org/2000/svg"
+    //           viewBox="0 0 24 24"
+    //           fill="none"
+    //           stroke="currentColor"
+    //           strokeWidth="2"
+    //           strokeLinecap="round"
+    //           strokeLinejoin="round"
+    //           {...props}
+    //         >
+    //           <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7-7H4a2 2 0 0 0-2 2v17z" />
+    //           <path d="M16 8V1" />
+    //           <path d="M12 12v8" />
+    //           <path d="M8 12v8" />
+    //           <path d="M16 12v8" />
+    //         </svg>
+    //       ),
+    //     },
+    //     {
+    //       name: "Education",
+    //       href: "/industries/education",
+    //       description: "EdTech and learning management systems",
+    //       icon: (props) => (
+    //         <svg
+    //           xmlns="http://www.w3.org/2000/svg"
+    //           viewBox="0 0 24 24"
+    //           fill="none"
+    //           stroke="currentColor"
+    //           strokeWidth="2"
+    //           strokeLinecap="round"
+    //           strokeLinejoin="round"
+    //           {...props}
+    //         >
+    //           <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+    //           <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+    //         </svg>
+    //       ),
+    //     },
+       
+    //   ],
+    //   featuredItem: {
+    //     title: "Healthcare Solutions",
+    //     description: "Digital transformation for healthcare providers to improve patient care.",
+    //     image: "/health_care.jpg?height=200&width=300",
+    //     link: "/industries/healthcare",
+    //   },
+    // },
+    
+    
     industries: {
-      title: "Industries",
-      subtitle: "Specialized solutions for various sectors",
-      items: [
-        {
-          name: "Healthcare",
-          href: "/industries/healthcare",
-          description: "Digital solutions for healthcare providers",
-          icon: (props) => (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              {...props}
-            >
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-            </svg>
-          ),
-          featured: true,
-        },
-        {
-          name: "Finance",
-          href: "/industries/finance",
-          description: "FinTech and banking solutions",
-          icon: (props) => (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              {...props}
-            >
-              <line x1="12" y1="1" x2="12" y2="23" />
-              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-            </svg>
-          ),
-          featured: true,
-        },
-        {
-          name: "Retail & E-commerce",
-          href: "/industries/retail-ecommerce",
-          description: "Digital transformation for retail businesses",
-          icon: (props) => (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              {...props}
-            >
-              <circle cx="9" cy="21" r="1" />
-              <circle cx="20" cy="21" r="1" />
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-            </svg>
-          ),
-          featured: true,
-        },
-        {
-          name: "Manufacturing",
-          href: "/industries/manufacturing",
-          description: "Industry 4.0 and smart manufacturing",
-          icon: (props) => (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              {...props}
-            >
-              <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7-7H4a2 2 0 0 0-2 2v17z" />
-              <path d="M16 8V1" />
-              <path d="M12 12v8" />
-              <path d="M8 12v8" />
-              <path d="M16 12v8" />
-            </svg>
-          ),
-        },
-        {
-          name: "Education",
-          href: "/industries/education",
-          description: "EdTech and learning management systems",
-          icon: (props) => (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              {...props}
-            >
-              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-            </svg>
-          ),
-        },
-        {
-          name: "Government",
-          href: "/industries/government",
-          description: "Public sector digital transformation",
-          icon: (props) => (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              {...props}
-            >
-              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-            </svg>
-          ),
-        },
-      ],
-      featuredItem: {
-        title: "Healthcare Solutions",
-        description: "Digital transformation for healthcare providers to improve patient care.",
-        image: "/health_care.jpg?height=200&width=300",
-        link: "/industries/healthcare",
-      },
+  title: "Industries",
+  subtitle: "Specialized solutions for various sectors",
+  items: [
+    {
+      name: "Healthcare",
+      href: "/industries/healthcare",
+      description: "Digital solutions for healthcare providers",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+        </svg>
+      ),
+      featured: true,
     },
+    {
+      name: "Finance",
+      href: "/industries/finance",
+      description: "FinTech and banking solutions",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <line x1="12" y1="1" x2="12" y2="23" />
+          <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+        </svg>
+      ),
+      featured: true,
+    },
+    {
+      name: "Banking & Insurance",
+      href: "/industries/banking-insurance",
+      description: "Core banking systems and insurance platforms",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <rect x="3" y="3" width="18" height="18" rx="2" />
+          <path d="M3 9h18" />
+          <path d="M9 21V9" />
+        </svg>
+      ),
+      featured: true,
+    },
+    {
+      name: "Investment & Wealth Management",
+      href: "/industries/investment-wealth",
+      description: "Portfolio management and wealth advisory platforms",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+        </svg>
+      ),
+      featured: true,
+    },
+    {
+      name: "Payment Solutions",
+      href: "/industries/payment-solutions",
+      description: "Digital payment gateways and wallet solutions",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+          <line x1="1" y1="10" x2="23" y2="10" />
+        </svg>
+      ),
+    },
+    {
+      name: "Accounting & Tax",
+      href: "/industries/accounting-tax",
+      description: "Automated accounting and tax management systems",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+          <polyline points="14 2 14 8 20 8" />
+          <line x1="9" y1="15" x2="15" y2="15" />
+        </svg>
+      ),
+    },
+    {
+      name: "Blockchain & Crypto",
+      href: "/industries/blockchain-crypto",
+      description: "Cryptocurrency exchanges and blockchain solutions",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <rect x="8" y="2" width="8" height="8" rx="2" />
+          <rect x="2" y="8" width="8" height="8" rx="2" />
+          <rect x="14" y="8" width="8" height="8" rx="2" />
+          <rect x="8" y="14" width="8" height="8" rx="2" />
+        </svg>
+      ),
+    },
+    {
+      name: "Lending & Credit",
+      href: "/industries/lending-credit",
+      description: "Digital lending platforms and credit scoring",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 6v6l4 2" />
+        </svg>
+      ),
+    },
+    {
+      name: "Retail & E-commerce",
+      href: "/industries/retail-ecommerce",
+      description: "Digital transformation for retail businesses",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <circle cx="9" cy="21" r="1" />
+          <circle cx="20" cy="21" r="1" />
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+        </svg>
+      ),
+      featured: true,
+    },
+   
+    {
+      name: "Education",
+      href: "/industries/education",
+      description: "EdTech and learning management systems",
+      icon: (props) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+        </svg>
+      ),
+    },
+   {
+  name: "Finance & Banking",
+  href: "/industries/finance",
+  description: "Financial services and banking platforms",
+  icon: (props) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <line x1="12" y1="1" x2="12" y2="23" />
+      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+    </svg>
+  ),
+}
+  ],
+  featuredItem: {
+    title: "Financial Services Solutions",
+    description: "Comprehensive digital solutions for banking, fintech, and financial institutions.",
+    image: "/flexible_team_composition.jpg?height=200&width=300",
+    link: "/industries/finance",
+  },
+},
+    
+    
+    
+    
+    
     resources: {
       title: "Resources",
       subtitle: "Knowledge and insights to help you succeed",

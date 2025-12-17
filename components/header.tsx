@@ -310,9 +310,10 @@ export function Header() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Company", href: "/company", megaMenu: "company" },
+    { name: "About", href: "/company/about"},
+    { name: "Company", href: "/company/careers" },
     { name: "Services", href: "/services", megaMenu: "services" },
-    { name: "Technologies", href: "/technologies", megaMenu: "technologies" },
+    // { name: "Technologies", href: "/technologies", megaMenu: "technologies" },
     { name: "Industries", href: "/industries", megaMenu: "industries" },
     { name: "Resources", href: "/resources", megaMenu: "resources" },
     { name: "Contact", href: "/contact" },
