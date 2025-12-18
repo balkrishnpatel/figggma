@@ -315,7 +315,7 @@ export function Header() {
     { name: "Services", href: "/services", megaMenu: "services" },
     // { name: "Technologies", href: "/technologies", megaMenu: "technologies" },
     { name: "Industries", href: "/industries", megaMenu: "industries" },
-    { name: "Resources", href: "/resources", megaMenu: "resources" },
+    { name: "Blog", href: "/blog"},
     { name: "Contact", href: "/contact" },
   ]
 

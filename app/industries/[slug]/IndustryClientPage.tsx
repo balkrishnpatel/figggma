@@ -81,6 +81,463 @@ const industries = [
       "Increased operational efficiency",
     ],
   },
+
+
+  {
+    title: "Finance & Banking",
+    slug: "finance-banking",
+    icon: "🏦",
+    shortDescription: "Digital solutions for financial institutions and banking services.",
+    fullDescription:
+      "Our finance and banking solutions help banks, fintech companies, and financial institutions leverage cutting-edge technology to improve customer experience, ensure security, and streamline operations. We develop secure payment systems, mobile banking apps, wealth management platforms, and financial analytics solutions tailored to meet regulatory compliance and industry standards.",
+    challenges: [
+      "Ensuring compliance with financial regulations (RBI, SEBI, PCI-DSS, etc.)",
+      "Protecting against cyber threats and fraud",
+      "Integrating with legacy banking systems",
+      "Providing seamless omnichannel customer experiences",
+      "Managing real-time transaction processing",
+      "Implementing advanced risk management and analytics",
+    ],
+    solutions: [
+      "Mobile and internet banking platforms",
+      "Digital wallet and payment gateway solutions",
+      "Core banking system modernization",
+      "Financial analytics and risk management",
+      "Customer relationship management (CRM) systems",
+      "Blockchain and cryptocurrency solutions",
+    ],
+    caseStudies: [
+      {
+        title: "Leading Private Bank",
+        description:
+          "Implemented a mobile banking app that increased digital transactions by 65% and reduced branch visits by 45%.",
+      },
+      {
+        title: "Fintech Startup",
+        description:
+          "Developed a digital payment platform that processed over 1 million transactions in the first quarter with 99.9% uptime.",
+      },
+      {
+        title: "Investment Firm",
+        description:
+          "Built a wealth management platform that improved client portfolio performance tracking and increased customer retention by 30%.",
+      },
+    ],
+    stats: [
+      { value: "65%", label: "Increase in digital transactions" },
+      { value: "45%", label: "Reduction in operational costs" },
+      { value: "99.9%", label: "System uptime and reliability" },
+      { value: "30%", label: "Improvement in customer satisfaction" },
+    ],
+    features: [
+      "Bank-grade encryption and security",
+      "Real-time transaction processing",
+      "Multi-factor authentication",
+      "Seamless third-party integrations",
+      "Advanced fraud detection systems",
+      "Comprehensive audit trails and reporting",
+    ],
+    benefits: [
+      "Enhanced security and compliance",
+      "Improved customer experience",
+      "Reduced operational costs",
+      "Faster time-to-market for new services",
+      "Data-driven decision making",
+      "Scalable and future-ready infrastructure",
+    ],
+  },
+
+  // Ye object aapko industries array mein add karna hai
+
+{
+  title: "Lending & Credit",
+  slug: "lending-credit",
+  icon: "💳",
+  shortDescription: "Digital lending platforms and credit management solutions.",
+  fullDescription:
+    "Our lending and credit solutions help financial institutions, NBFCs, and fintech companies modernize their lending operations with digital-first platforms. We develop custom loan origination systems, credit scoring engines, digital lending platforms, and automated underwriting solutions that accelerate loan processing, reduce defaults, and enhance customer experience while ensuring regulatory compliance.",
+  challenges: [
+    "Streamlining loan application and approval processes",
+    "Implementing accurate credit risk assessment",
+    "Ensuring compliance with lending regulations (RBI guidelines, Fair Practices Code)",
+    "Managing loan portfolio and collections efficiently",
+    "Preventing fraud and identity theft",
+    "Reducing loan processing time and operational costs",
+  ],
+  solutions: [
+    "Digital loan origination systems (LOS)",
+    "AI-powered credit scoring and risk assessment",
+    "Automated underwriting platforms",
+    "Loan management and servicing systems",
+    "Collections and recovery automation",
+    "Peer-to-peer lending platforms",
+  ],
+  caseStudies: [
+    {
+      title: "Leading NBFC",
+      description:
+        "Implemented a digital lending platform that reduced loan processing time from 7 days to 2 hours and increased loan approvals by 40%.",
+    },
+    {
+      title: "Microfinance Institution",
+      description:
+        "Developed an AI-based credit scoring system that reduced default rates by 35% and improved portfolio quality.",
+    },
+    {
+      title: "Fintech Lender",
+      description:
+        "Built an end-to-end digital lending solution that processed over ₹500 crores in loans within the first year with 98% customer satisfaction.",
+    },
+  ],
+  stats: [
+    { value: "85%", label: "Faster loan processing" },
+    { value: "35%", label: "Reduction in default rates" },
+    { value: "60%", label: "Lower operational costs" },
+    { value: "40%", label: "Increase in loan approvals" },
+  ],
+  features: [
+    "Instant loan eligibility assessment",
+    "Automated document verification (KYC, Aadhaar, PAN)",
+    "AI/ML-based credit scoring models",
+    "Digital signature and e-agreements",
+    "Real-time disbursement tracking",
+    "Integrated payment gateway for EMI collections",
+  ],
+  benefits: [
+    "Faster loan processing and disbursement",
+    "Improved credit decision accuracy",
+    "Enhanced customer experience",
+    "Reduced operational and processing costs",
+    "Better risk management and portfolio quality",
+    "Regulatory compliance and audit trails",
+  ],
+},
+
+// Ye object aapko industries array mein add karna hai
+
+{
+  title: "Payment Solutions",
+  slug: "payment-solutions",
+  icon: "💰",
+  shortDescription: "Digital payment gateways and wallet solutions.",
+  fullDescription:
+    "Our payment solutions help businesses, merchants, and financial institutions build secure, scalable, and user-friendly digital payment infrastructure. We develop custom payment gateways, digital wallets, UPI integration platforms, and payment processing systems that enable seamless transactions across multiple channels. Our solutions support various payment methods including cards, net banking, UPI, wallets, and QR codes while ensuring PCI-DSS compliance and robust fraud prevention.",
+  challenges: [
+    "Ensuring secure and PCI-DSS compliant payment processing",
+    "Integrating multiple payment methods and channels",
+    "Managing high transaction volumes with low latency",
+    "Preventing payment fraud and chargebacks",
+    "Providing seamless checkout experiences",
+    "Handling reconciliation and settlement efficiently",
+  ],
+  solutions: [
+    "Payment gateway integration and development",
+    "Digital wallet and mobile payment apps",
+    "UPI and QR code payment solutions",
+    "Subscription and recurring payment systems",
+    "Point-of-sale (POS) solutions",
+    "Payment orchestration platforms",
+  ],
+  caseStudies: [
+    {
+      title: "E-commerce Platform",
+      description:
+        "Implemented a multi-channel payment gateway that increased transaction success rate by 25% and reduced cart abandonment by 30%.",
+    },
+    {
+      title: "Retail Chain",
+      description:
+        "Developed a unified POS system with digital wallet integration that processed over 10 lakh transactions daily with 99.99% uptime.",
+    },
+    {
+      title: "Fintech Startup",
+      description:
+        "Built a digital wallet platform that onboarded 5 million users in 6 months and processed ₹1,000 crores in transactions.",
+    },
+  ],
+  stats: [
+    { value: "99.99%", label: "Payment uptime" },
+    { value: "25%", label: "Higher success rates" },
+    { value: "30%", label: "Reduced cart abandonment" },
+    { value: "50%", label: "Faster checkout process" },
+  ],
+  features: [
+    "Multi-payment method support (UPI, Cards, Net Banking, Wallets)",
+    "One-click and saved card payments",
+    "Dynamic QR code generation",
+    "Real-time transaction status and webhooks",
+    "Advanced fraud detection and risk management",
+    "Automated reconciliation and settlement",
+  ],
+  benefits: [
+    "Increased payment success rates",
+    "Enhanced customer payment experience",
+    "Reduced transaction failures and fraud",
+    "Lower payment processing costs",
+    "Seamless multi-channel integration",
+    "Complete payment analytics and insights",
+  ],
+},
+// Ye object aapko industries array mein add karna hai
+
+{
+  title: "Accounting & Tax",
+  slug: "accounting-tax",
+  icon: "📊",
+  shortDescription: "Accounting and tax management systems.",
+  fullDescription:
+    "Our accounting and tax solutions help businesses, CA firms, and financial professionals automate their financial operations and ensure compliance with Indian tax regulations. We develop custom accounting software, GST compliance platforms, TDS management systems, and financial reporting tools that streamline bookkeeping, automate tax calculations, and simplify regulatory filings. Our solutions integrate with banking systems, invoice management, and e-invoicing platforms to provide end-to-end financial management.",
+  challenges: [
+    "Managing complex GST compliance and return filing",
+    "Automating TDS calculation and return preparation",
+    "Ensuring accurate financial reporting and audit trails",
+    "Handling multiple tax regimes and frequent regulation changes",
+    "Integrating with banking and invoice systems",
+    "Managing accounts payable and receivable efficiently",
+  ],
+  solutions: [
+    "GST compliance and filing automation",
+    "TDS and income tax management systems",
+    "Cloud-based accounting platforms",
+    "E-invoicing and billing solutions",
+    "Financial reporting and analytics",
+    "Expense management and reimbursement systems",
+  ],
+  caseStudies: [
+    {
+      title: "CA Firm Network",
+      description:
+        "Implemented a cloud accounting platform that reduced GST filing time by 70% and managed 5,000+ client accounts efficiently.",
+    },
+    {
+      title: "Manufacturing Company",
+      description:
+        "Developed an integrated accounting system that automated TDS calculations and reduced month-end closing time from 7 days to 2 days.",
+    },
+    {
+      title: "Multi-State Retailer",
+      description:
+        "Built a GST compliance solution that handled 50,000+ monthly invoices across 15 states with 100% accurate GSTR filing.",
+    },
+  ],
+  stats: [
+    { value: "70%", label: "Faster tax filing" },
+    { value: "90%", label: "Reduction in manual errors" },
+    { value: "60%", label: "Time saved in bookkeeping" },
+    { value: "100%", label: "GST compliance accuracy" },
+  ],
+  features: [
+    "Automated GST return filing (GSTR-1, GSTR-3B, GSTR-9)",
+    "TDS calculation and Form 26AS reconciliation",
+    "E-invoicing integration with GST portal",
+    "Real-time financial dashboards and reports",
+    "Multi-company and multi-branch accounting",
+    "Bank statement reconciliation",
+  ],
+  benefits: [
+    "Simplified GST and tax compliance",
+    "Reduced manual errors and penalties",
+    "Faster financial closing and reporting",
+    "Real-time financial visibility",
+    "Automated invoice and expense tracking",
+    "Seamless audit trail and documentation",
+  ],
+},
+
+{
+  title: "Blockchain & Crypto",
+  slug: "blockchain-crypto",
+  icon: "₿",
+  shortDescription: "Cryptocurrency exchanges and blockchain solutions.",
+  fullDescription:
+    "Our blockchain and cryptocurrency solutions help businesses, exchanges, and startups build secure, scalable, and compliant digital asset platforms. We develop custom cryptocurrency exchanges, blockchain-based applications, smart contracts, NFT marketplaces, and DeFi platforms. Our solutions ensure high security, seamless user experience, and regulatory compliance while leveraging cutting-edge blockchain technologies like Ethereum, Polygon, Solana, and Hyperledger for various use cases including payments, asset tokenization, and supply chain management.",
+  challenges: [
+    "Ensuring security against hacks and cyber attacks",
+    "Managing high-frequency trading with low latency",
+    "Implementing KYC/AML compliance for crypto transactions",
+    "Handling multi-currency and multi-blockchain support",
+    "Providing liquidity and order matching efficiently",
+    "Navigating evolving regulatory landscape",
+  ],
+  solutions: [
+    "Cryptocurrency exchange platforms (CEX & DEX)",
+    "Blockchain-based payment systems",
+    "NFT marketplace development",
+    "Smart contract development and auditing",
+    "DeFi (Decentralized Finance) platforms",
+    "Token creation and ICO/IDO platforms",
+  ],
+  caseStudies: [
+    {
+      title: "Crypto Exchange Platform",
+      description:
+        "Built a centralized exchange that handles 100,000+ daily transactions with 99.99% uptime and advanced security features including cold wallet storage.",
+    },
+    {
+      title: "NFT Marketplace",
+      description:
+        "Developed an NFT platform that facilitated ₹50 crores in digital art sales within 3 months with seamless minting and trading experience.",
+    },
+    {
+      title: "Enterprise Blockchain",
+      description:
+        "Implemented a private blockchain solution for supply chain tracking that reduced fraud by 85% and improved transparency across 200+ vendors.",
+    },
+  ],
+  stats: [
+    { value: "99.99%", label: "Platform uptime" },
+    { value: "85%", label: "Reduction in fraud" },
+    { value: "100K+", label: "Daily transactions" },
+    { value: "50ms", label: "Order matching latency" },
+  ],
+  features: [
+    "Multi-cryptocurrency wallet integration",
+    "Advanced order matching engine",
+    "Cold and hot wallet management",
+    "Real-time market data and charts",
+    "KYC/AML verification systems",
+    "Multi-signature security protocols",
+  ],
+  benefits: [
+    "Bank-grade security and encryption",
+    "High-performance trading infrastructure",
+    "Regulatory compliance and reporting",
+    "Seamless user onboarding experience",
+    "Multi-blockchain interoperability",
+    "24/7 trading with automated systems",
+  ],
+},
+
+// Ye object aapko industries array mein add karna hai
+
+{
+  title: "Banking & Insurance",
+  slug: "banking-insurance",
+  icon: "🏛️",
+  shortDescription: "Core banking systems and insurance platforms.",
+  fullDescription:
+    "Our banking and insurance solutions help financial institutions modernize their core systems and deliver superior customer experiences. We develop comprehensive core banking platforms, insurance management systems, policy administration solutions, and claims processing automation that enable digital transformation. Our solutions support retail banking, corporate banking, life insurance, general insurance, and health insurance operations while ensuring regulatory compliance with RBI, IRDAI guidelines and maintaining the highest security standards.",
+  challenges: [
+    "Modernizing legacy banking and insurance systems",
+    "Ensuring regulatory compliance (RBI, IRDAI, SEBI)",
+    "Managing omnichannel customer experiences",
+    "Automating underwriting and claims processing",
+    "Integrating with third-party systems and APIs",
+    "Protecting sensitive customer and financial data",
+  ],
+  solutions: [
+    "Core banking system (CBS) modernization",
+    "Policy administration and management systems",
+    "Claims processing automation",
+    "Insurance aggregator platforms",
+    "Customer relationship management (CRM)",
+    "Agent and broker management portals",
+  ],
+  caseStudies: [
+    {
+      title: "Regional Bank",
+      description:
+        "Modernized core banking system that reduced transaction processing time by 60% and enabled real-time account updates across 500+ branches.",
+    },
+    {
+      title: "Life Insurance Company",
+      description:
+        "Implemented a policy management platform that reduced policy issuance time from 15 days to 24 hours and increased customer satisfaction by 45%.",
+    },
+    {
+      title: "General Insurance Provider",
+      description:
+        "Built an automated claims processing system that reduced claim settlement time by 70% and processed 50,000+ claims monthly with 95% accuracy.",
+    },
+  ],
+  stats: [
+    { value: "60%", label: "Faster transaction processing" },
+    { value: "70%", label: "Reduced claim settlement time" },
+    { value: "45%", label: "Improved customer satisfaction" },
+    { value: "95%", label: "Claims processing accuracy" },
+  ],
+  features: [
+    "Real-time core banking operations",
+    "Automated policy underwriting and issuance",
+    "Digital claims submission and tracking",
+    "Multi-product and multi-branch support",
+    "Integrated payment and collection systems",
+    "Regulatory reporting and compliance",
+  ],
+  benefits: [
+    "Reduced operational costs and manual work",
+    "Faster service delivery and processing",
+    "Enhanced customer experience and satisfaction",
+    "Improved risk assessment and fraud detection",
+    "Seamless omnichannel banking/insurance",
+    "Complete audit trails and compliance",
+  ],
+},
+// Ye object aapko industries array mein add karna hai
+
+{
+  title: "Investment & Wealth Management",
+  slug: "investment-wealth",
+  icon: "💼",
+  shortDescription: "Portfolio management and wealth advisory platforms.",
+  fullDescription:
+    "Our investment and wealth management solutions help asset management companies, wealth advisors, and financial planners deliver personalized investment strategies and superior portfolio management services. We develop comprehensive wealth management platforms, robo-advisory systems, portfolio tracking applications, and investment analytics tools that enable data-driven decision making. Our solutions support mutual funds, stocks, bonds, alternative investments, and goal-based planning while ensuring compliance with SEBI regulations and providing real-time market insights.",
+  challenges: [
+    "Managing diverse investment portfolios across asset classes",
+    "Providing personalized investment recommendations at scale",
+    "Ensuring SEBI and regulatory compliance",
+    "Integrating real-time market data and analytics",
+    "Automating portfolio rebalancing and tax optimization",
+    "Delivering transparent performance reporting to clients",
+  ],
+  solutions: [
+    "Wealth management platforms",
+    "Robo-advisory and algorithmic trading systems",
+    "Portfolio management software (PMS)",
+    "Mutual fund distribution platforms",
+    "Goal-based financial planning tools",
+    "Investment research and analytics dashboards",
+  ],
+  caseStudies: [
+    {
+      title: "Wealth Management Firm",
+      description:
+        "Implemented a comprehensive platform managing ₹5,000 crores AUM across 10,000+ clients with automated rebalancing and tax optimization.",
+    },
+    {
+      title: "Robo-Advisory Startup",
+      description:
+        "Developed an AI-powered investment platform that onboarded 50,000 users in 6 months with personalized portfolio recommendations and achieved 18% average returns.",
+    },
+    {
+      title: "AMC Distribution Network",
+      description:
+        "Built a mutual fund platform that increased distributor productivity by 40% and processed 25,000+ monthly transactions seamlessly.",
+    },
+  ],
+  stats: [
+    { value: "₹5,000Cr", label: "Assets under management" },
+    { value: "40%", label: "Increase in advisor productivity" },
+    { value: "18%", label: "Average portfolio returns" },
+    { value: "50K+", label: "Active investors onboarded" },
+  ],
+  features: [
+    "Multi-asset portfolio management",
+    "Real-time market data integration",
+    "Automated portfolio rebalancing",
+    "Goal-based investment planning",
+    "Risk profiling and assessment",
+    "Tax-loss harvesting automation",
+  ],
+  benefits: [
+    "Personalized investment strategies at scale",
+    "Enhanced portfolio performance tracking",
+    "Automated compliance and reporting",
+    "Better client engagement and retention",
+    "Data-driven investment decisions",
+    "Reduced operational costs and errors",
+  ],
+},
   {
     title: "Finance",
     slug: "finance",
@@ -773,6 +1230,9 @@ const industries = [
       "Data-driven agricultural decisions",
     ],
   },
+
+
+
 ]
 
 export default function IndustryClientPage({ indust }: IndustryPageProps) {
